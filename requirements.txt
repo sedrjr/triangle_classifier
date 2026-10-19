@@ -1,0 +1,12 @@
+**"We run a stained-glass studio. Customers enter three side lengths and we tell them the shape and whether it is buildable. If it is not a valid triangle, show a message, do not crash. Also flag right-angle pieces — they need reinforced corners. It has to be correct every time; a wrong answer means a ruined pane."**
+
+**Acceptance Criteria:**
+**Given** a customer enters three side lengths.
+**When** the sides lengths indicate an invalid triangle.
+**Then** the system should display a message indicating that the triangle is invalid and not attempt to build it.
+**Given** a customer enters angled pieces.
+**When** one angle indicates a right angled triangle.
+**Then** the system should flag the triangle as requiring reinforced corners.
+**Given** a customer enters three side lengths.
+**When** the side lengths indicate a valid triangle.
+**Then** the system should display the shape of the triangle (equilateral, isosceles, or scalene) and confirm that it is buildable.
